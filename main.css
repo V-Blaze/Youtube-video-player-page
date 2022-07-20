@@ -49,15 +49,13 @@ nav {
     width: 25px;
 }
 
-.logo {
-    background-color: #ffffff;
-}
+
 
 main {
     padding: 20px;
     background-color: rgb(8, 8, 10);
     width: 100%;
-    height: 4000px;
+    height: 200%;
 }
 
 .main {
@@ -66,7 +64,7 @@ main {
     width: 640px;
     position: absolute;
     top: 70px;
-    left: 250px;
+    left: 200px;
     height: max-content;
 }
 
@@ -144,6 +142,11 @@ main {
     width: 110px;
     height: 45px;
     border-radius: 6px;
+
+}
+
+.subscribe-btn:hover {
+    cursor: pointer;
 }
 
 .description {
@@ -157,4 +160,97 @@ main {
 .dsc {
     padding-bottom: 12px;
     padding-left: 120px;
+}
+
+.comments {
+    display: flex;
+    align-items: center;
+    height: 56px;
+    padding: 12px;
+}
+
+.comments span {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    padding-right: 10px;
+    font-weight: bolder;
+    color: #ffffff;
+}
+
+.comment-logo {
+    border-radius: 50%;
+    background-color: rgb(0, 195, 255);
+}
+
+.new-comment {
+    display: flex;
+    align-items: center;
+    height: 56px;
+    padding: 12px;
+}
+
+#new-comment {
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-bottom: whitesmoke .3px solid;
+    width: 540px;
+
+}
+
+.new-comment span {
+    padding-left: 10px;
+}
+
+.sidebar {
+    background-color: black;
+    color: #ffffff;
+    width: 450px;
+    position: absolute;
+    top: 70px;
+    right: 200px;
+    height: 100%;
+}
+
+/* 168 * 94 */
+
+.thumbnail {
+    display: flex;
+    width: 100%;
+    height: 94px;
+    padding-bottom: 6px;
+}
+
+.thumb-img {
+    height: 94px;
+    width: 168;
+}
+
+.thumb-details {
+    display: block;
+    align-items: center;
+    padding-left: 8px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.thumb-channel-name {
+    color: rgb(194, 194, 194);
+    font-size: smaller;
+    margin-top: 6px;
+
+}
+
+.thumb-title {
+    font-size: large;
+    font-weight: bolder;
+    color: #ffffff;
+    padding-bottom: 10px;
+}
+
+.thumb-view {
+    display: flex;
+    font-size: x-small;
+    color: rgb(194, 194, 194);
 }
